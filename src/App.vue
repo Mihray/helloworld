@@ -4,6 +4,7 @@
   <SignLogin/>
   <DlrowOlloeh/>
   <MonitorVue/>
+  <DetectiveVue/>
 </template>
 
 <script>
@@ -11,10 +12,11 @@ import GetName from "./components/GetName.vue";
 import SignLogin from "./components/SignLogin.vue";
 import DlrowOlloeh from "./components/DlrowOlloeh.vue";
 import MonitorVue from "./components/MonitorVue.vue";
+import DetectiveVue from "./components/DetectiveVue.vue";
 
 export default {
     name: "App",
-    components: { GetName, SignLogin, DlrowOlloeh,MonitorVue }
+    components: { GetName, SignLogin, DlrowOlloeh, MonitorVue, DetectiveVue }
 }
 </script>
 
