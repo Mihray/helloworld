@@ -3,16 +3,18 @@
   <GetName/>
   <SignLogin/>
   <DlrowOlloeh/>
+  <MonitorVue/>
 </template>
 
 <script>
 import GetName from "./components/GetName.vue";
 import SignLogin from "./components/SignLogin.vue";
 import DlrowOlloeh from "./components/DlrowOlloeh.vue";
+import MonitorVue from "./components/MonitorVue.vue";
 
 export default {
     name: "App",
-    components: { GetName, SignLogin, DlrowOlloeh }
+    components: { GetName, SignLogin, DlrowOlloeh,MonitorVue }
 }
 </script>
 
