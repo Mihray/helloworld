@@ -1,14 +1,16 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
   <GetName/>
+  <SignLogin/>
 </template>
 
 <script>
 import GetName from "./components/GetName.vue";
+import SignLogin from "./components/SignLogin.vue";
 
 export default {
     name: "App",
-    components: { GetName }
+    components: { GetName, SignLogin }
 }
 </script>
 
