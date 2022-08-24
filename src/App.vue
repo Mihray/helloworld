@@ -6,6 +6,7 @@
   <MonitorVue/>
   <DetectiveVue/>
   <ListVue/>
+  <TwowayDataBinding/>
 </template>
 
 <script>
@@ -15,10 +16,11 @@ import DlrowOlloeh from "./components/DlrowOlloeh.vue";
 import MonitorVue from "./components/MonitorVue.vue";
 import DetectiveVue from "./components/DetectiveVue.vue";
 import ListVue from "./components/ListVue.vue";
+import TwowayDataBinding from "./components/TwowayDataBinding.vue";
 
 export default {
     name: "App",
-    components: { GetName, SignLogin, DlrowOlloeh, MonitorVue, DetectiveVue,ListVue }
+    components: { GetName, SignLogin, DlrowOlloeh, MonitorVue, DetectiveVue,ListVue,TwowayDataBinding }
 }
 </script>
 
