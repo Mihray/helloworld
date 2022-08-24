@@ -7,6 +7,7 @@
   <DetectiveVue/>
   <ListVue/>
   <TwowayDataBinding/>
+  <DlrowOlloeh/>
 </template>
 
 <script>
