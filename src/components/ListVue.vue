@@ -4,9 +4,6 @@
         {{item.message}}
         </li>
     </ul>
-    <ul v-for="set in sets">
-        <li v-for="n in even(set)"></li>
-    </ul>
 </template>
 <script>
 export default {
