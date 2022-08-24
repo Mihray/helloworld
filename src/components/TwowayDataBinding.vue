@@ -17,10 +17,13 @@
         </select>
         <span>Selected:{{selected2}}</span>
     </div>
+    <div id="components-demo">
+        <button-counter></button-counter>
+    </div>
 </template>
 <script>
 export default {
-    el:'select',
+    el:'select,components-demo',
     data(){
         return {
             selected:'',
